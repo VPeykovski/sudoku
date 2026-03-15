@@ -1,0 +1,44 @@
+@use "../../scss/breakpoints" as *;
+
+.difficulty-menu-container {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+}
+
+.title-container {
+  @media (max-width: $phone-breakpoint) {
+    font-size: 12px;
+  }
+}
+
+.button-container {
+  display: flex;
+  gap: 4px;
+}
+
+button {
+  padding: 8px 16px;
+  border: none;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:disabled {
+  opacity: 0.5;
+}
+
+button.active {
+  background-color: var(--color-background-secondary);
+  color: var(--color-text-primary);
+}
+
+button:not(.active) {
+  color: var(--color-text-secondary);
+}
+button:hover {
+  background-color: var(--color-background-secondary);
+}

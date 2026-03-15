@@ -1,0 +1,29 @@
+<div class="game-controls-container">
+  <button
+    [disabled]="isLoading()"
+    mat-button
+    (click)="openRestartDialog('100ms', '100ms')"
+    i18n
+  >
+    Restart Game
+  </button>
+  <button
+    [disabled]="isLoading()"
+    mat-button
+    (click)="openNewGameDialog('100ms', '100ms')"
+    i18n
+  >
+    New Game
+  </button>
+  <button [disabled]="isLoading()" mat-button (click)="validateGame()" i18n>
+    Validate Game
+  </button>
+  <button
+    [disabled]="isLoading()"
+    mat-button
+    (click)="openSolveGameDialog('100ms', '100ms')"
+    i18n
+  >
+    Solve Game
+  </button>
+</div>

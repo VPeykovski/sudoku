@@ -1,0 +1,10 @@
+<form [formGroup]="form">
+  <input
+    type="text"
+    class="cell"
+    formControlName="cell"
+    [class.cell--prefilled]="isPrefilled()"
+    (keydown)="onKeyDown($event)"
+    maxlength="1"
+  />
+</form>

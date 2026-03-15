@@ -1,0 +1,40 @@
+.board-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  border: 2px solid #000;
+}
+
+.row {
+  display: flex;
+
+  &:nth-child(3n) {
+    border-bottom: 2px solid #000;
+
+    ::ng-deep app-cell:nth-child(1n) .cell {
+      border-bottom: none;
+    }
+  }
+
+  &:nth-child(9n) {
+    border-bottom: none;
+  }
+
+  ::ng-deep app-cell:not(:nth-child(9n)) .cell {
+    border-right: 1px solid #000;
+  }
+
+  ::ng-deep app-cell:nth-child(1n) .cell {
+    border-bottom: 1px solid #000;
+  }
+
+  ::ng-deep app-cell:nth-child(3n) .cell {
+    border-right: 2px solid #000;
+  }
+
+  ::ng-deep app-cell:nth-child(9n) .cell {
+    border-right: none;
+  }
+}

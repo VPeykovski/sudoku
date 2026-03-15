@@ -1,0 +1,13 @@
+<div class="board-container">
+  @for (row of board(); track $index; let rowIndex = $index) {
+    <div class="row">
+      @for (cell of row; track $index; let colIndex = $index) {
+        <app-cell
+          [cellValue]="cell"
+          [cellIndex]="{ row: rowIndex, col: colIndex }"
+          [isPrefilled]="sudokuStore.isPrefilled()(rowIndex, colIndex)"
+        ></app-cell>
+      }
+    </div>
+  }
+</div>

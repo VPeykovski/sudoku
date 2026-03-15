@@ -1,0 +1,43 @@
+<div class="difficulty-menu-container">
+  <div class="title-container">
+    <h3 i18n>Select Difficulty:</h3>
+  </div>
+  <div class="button-container">
+    <button
+      mat-button
+      [class.active]="currentDifficulty() === 'easy'"
+      (click)="selectDifficulty('easy')"
+      [disabled]="isLoading()"
+      i18n
+    >
+      Easy
+    </button>
+    <button
+      mat-button
+      [class.active]="currentDifficulty() === 'medium'"
+      (click)="selectDifficulty('medium')"
+      [disabled]="isLoading()"
+      i18n
+    >
+      Medium
+    </button>
+    <button
+      mat-button
+      [class.active]="currentDifficulty() === 'hard'"
+      (click)="selectDifficulty('hard')"
+      [disabled]="isLoading()"
+      i18n
+    >
+      Hard
+    </button>
+    <button
+      mat-button
+      [class.active]="currentDifficulty() === 'random'"
+      (click)="selectDifficulty('random')"
+      [disabled]="isLoading()"
+      i18n
+    >
+      Random
+    </button>
+  </div>
+</div>

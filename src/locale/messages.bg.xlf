@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en-US" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="627401590810742852" datatype="html">
+        <source>Sudoku Puzzle Classic</source>
+        <target>Судоку пъзел Класически</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/components/header/header.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8518061902763652018" datatype="html">
+        <source>Select Difficulty:</source>
+        <target>Изберете трудност</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/difficulty-menu/difficulty-menu.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="147812582327314855" datatype="html">
+        <source> Easy </source>
+        <target>Лесна</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/difficulty-menu/difficulty-menu.component.html</context>
+          <context context-type="linenumber">13,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="401695908029970947" datatype="html">
+        <source> Medium </source>
+        <target>Средна</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/difficulty-menu/difficulty-menu.component.html</context>
+          <context context-type="linenumber">22,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2843386953702568881" datatype="html">
+        <source> Hard </source>
+        <target>Трудно</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/difficulty-menu/difficulty-menu.component.html</context>
+          <context context-type="linenumber">31,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7001786492394928947" datatype="html">
+        <source> Random </source>
+        <target>Случайна</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/difficulty-menu/difficulty-menu.component.html</context>
+          <context context-type="linenumber">40,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3762527362373672599" datatype="html">
+        <source>Congratulations!</source>
+        <target>Поздравления!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">2,3</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1787863745147594725" datatype="html">
+        <source>You have solved the puzzle! Do you want to start a new game?</source>
+        <target>Вие решихте пъзела! Искатели да започнете нова игра?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">4,5</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3542042671420335679" datatype="html">
+        <source>No</source>
+        <target>Не</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/new-game-dialog/new-game-dialog.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/restart-dialog/restart-dialog.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/solve-game-dialog/solve-game-dialog.component.html</context>
+          <context context-type="linenumber">6,7</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4861926948802653243" datatype="html">
+        <source> Yes </source>
+        <target>Да</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">10,11</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3522237667136499151" datatype="html">
+        <source>Game Status</source>
+        <target>Статус на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">14,15</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3731680607047059237" datatype="html">
+        <source>Your current board is unsolved. Keep going!</source>
+        <target>Вашето судоку не е решено правилно.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">16</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5929295467395380391" datatype="html">
+        <source> Keep going! </source>
+        <target>Продължаваме на пред!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/game-status-dialog/game-status-dialog.component.html</context>
+          <context context-type="linenumber">20,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7130182138525932037" datatype="html">
+        <source>New Game</source>
+        <target>Нова игра</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/new-game-dialog/new-game-dialog.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="212624131208153299" datatype="html">
+        <source> Are you sure you want to start a new game? Your current progress will be lost.
+</source>
+ <target>Сигурнили сте, че искате да започнете нова игра? Вашият прогрес ще бъде загубен.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/new-game-dialog/new-game-dialog.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2807800733729323332" datatype="html">
+        <source>Yes</source>
+         <target>Да</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/new-game-dialog/new-game-dialog.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/restart-dialog/restart-dialog.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/solve-game-dialog/solve-game-dialog.component.html</context>
+          <context context-type="linenumber">7,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6273179388885746795" datatype="html">
+        <source>Restart Game</source>
+         <target>Рестартиране на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/restart-dialog/restart-dialog.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8646452317233191162" datatype="html">
+        <source> Are you sure you want to restart the game? Your current progress will be lost.
+</source>
+   <target>Сигурнили сте, че искате да рестартирате играта? Вашият прогрес ще бъде изгубен.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/restart-dialog/restart-dialog.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8831528737004943515" datatype="html">
+        <source>Solve Game</source>
+        <target>Решение на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/solve-game-dialog/solve-game-dialog.component.html</context>
+          <context context-type="linenumber">1,2</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4109385645690629969" datatype="html">
+        <source> Are you sure you want to solve the game? Your current progress will be lost.
+</source>
+       <target>Сигурни ли сте, че искате да решите играта? Вашият прогрес ще бъде загубен.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/dialogs/solve-game-dialog/solve-game-dialog.component.html</context>
+          <context context-type="linenumber">3,4</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6051069816783720963" datatype="html">
+        <source> Restart Game </source>
+         <target>Рестарт на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/game-controls.component.html</context>
+          <context context-type="linenumber">8,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6783833212473883639" datatype="html">
+        <source> New Game </source>
+         <target>Нова игра</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/game-controls.component.html</context>
+          <context context-type="linenumber">16,17</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1715608534722562708" datatype="html">
+        <source> Validate Game </source>
+         <target>Валидиране на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/game-controls.component.html</context>
+          <context context-type="linenumber">19,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4069269687433172135" datatype="html">
+        <source> Solve Game </source>
+        <target>Решение на играта</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/menu/game-controls/game-controls.component.html</context>
+          <context context-type="linenumber">27,28</context>
+        </context-group>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

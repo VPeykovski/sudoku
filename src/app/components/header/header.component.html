@@ -1,0 +1,25 @@
+<div class="header-container">
+  <div class="header-title">
+    <h1 i18n>Sudoku Puzzle Classic</h1>
+  </div>
+  <div class="header-controls">
+    <mat-slide-toggle (change)="switchTheme()" [checked]="isDarkMode()">
+    </mat-slide-toggle>
+
+    <div class="language-switcher">
+      <button
+        (click)="switchLanguage('en')"
+        [class.active]="currentLang === 'en'"
+      >
+        🇬🇧 EN
+      </button>
+
+      <button
+        (click)="switchLanguage('bg')"
+        [class.active]="currentLang === 'bg'"
+      >
+        🇧🇬 БГ
+      </button>
+    </div>
+  </div>
+</div>

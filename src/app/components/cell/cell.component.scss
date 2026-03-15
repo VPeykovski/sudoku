@@ -1,0 +1,33 @@
+@use "../../scss/breakpoints" as *;
+
+.cell {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 24px;
+  color: var(--color-text-secondary);
+
+  &:focus {
+    color: var(--color-accent-soft);
+    background: var(--color-accent);
+  }
+
+  @media (max-width: $phone-breakpoint) {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+input,
+form {
+  border: none;
+  outline: none;
+}
+
+.cell--prefilled {
+  font-weight: bold;
+  color: var(--color-text-primary);
+}

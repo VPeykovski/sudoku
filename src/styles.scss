@@ -1,0 +1,132 @@
+// Custom Theming for Angular Material
+// For more information: https://material.angular.dev/guide/theming
+@use "@angular/material" as mat;
+@use "./app/scss/breakpoints" as *;
+
+@include mat.core();
+
+html {
+  @include mat.theme(
+    (
+      color: (
+        theme-type: light,
+        primary: mat.$azure-palette,
+        tertiary: mat.$blue-palette,
+      ),
+      typography: Roboto,
+      density: 0,
+    )
+  );
+}
+
+:root {
+  --color-background: #f7f8fc;
+  --color-background-secondary: #dde0ec;
+  --color-surface: #ffffff;
+  --color-surface-alt: #eef0f8;
+  --color-border: #c8cce0;
+  --color-border-strong: #6b72a3;
+  --color-text-primary: #1a1d35;
+  --color-text-secondary: #6b72a3;
+  --color-accent: #8a9df0;
+  --color-accent-soft: #d3ddfa;
+  --color-success: #3daa74;
+  --color-error: #e05252;
+  --color-muted: #9ba3c2;
+}
+
+html[theme="dark"] {
+  --color-background: #0f1117;
+  --color-background-secondary: #1f2333;
+  --color-surface: #1a1d2e;
+  --color-surface-alt: #22263a;
+  --color-border: #2e3350;
+  --color-border-strong: #5a6290;
+  --color-text-primary: #e8eaf6;
+  --color-text-secondary: #818ec4;
+  --color-accent: #647fff;
+  --color-accent-soft: #1e2550;
+  --color-success: #4dc98a;
+  --color-error: #ff6b6b;
+  --color-muted: #4a5278;
+}
+
+header,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 20% 0;
+
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+
+  @media (max-width: $tablet-breakpoint) {
+    padding: 0 10% 0;
+  }
+
+  @media (max-width: $phone-breakpoint) {
+    padding: 0 3% 0;
+  }
+}
+
+button {
+  span {
+    @media (max-width: $phone-breakpoint) {
+      font-size: 12px;
+    }
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+body * {
+  transition:
+    background-color 0.5s,
+    color 0.5s,
+    border-color 0.5s;
+}
+
+.mdc-switch__icon--on,
+.mdc-switch__icon--off {
+  display: none;
+}
+
+.mat-mdc-slide-toggle .mdc-switch__handle::after {
+  content: "☀️";
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mat-mdc-slide-toggle.mat-mdc-slide-toggle-checked .mdc-switch__handle::after {
+  content: "🌙";
+}
+
+.mat-mdc-dialog-container .mdc-dialog__surface {
+  width: 400px;
+}
