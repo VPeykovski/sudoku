@@ -112,7 +112,7 @@ export class SudokuStore {
     this.isLoading.set(true);
 
     this.sudokuService
-      .solveBoard({ board: this.board() })
+      .solveBoard({ board: this.initialBoard() })
       .pipe(
         catchError((error: any) => {
           console.error('Error fetching puzzle:', error);
